@@ -135,13 +135,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:background="@android:color/white"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center_horizontal"
                     android:text="Game statistics"
-                    android:textColor="@color/teamNameTextColor"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                    style="@style/statisticGameStyle" />
 
 
                 <LinearLayout
@@ -204,14 +199,8 @@
                     android:id="@+id/update_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:background="@android:color/white"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center_horizontal"
-                    android:padding="8dp"
-                    android:text="Last update: no updates"
-                    android:textColor="@color/teamNameTextColor"
-                    android:textSize="14dp" />
+                    style="@style/updateStyle"
+                    android:text="Last update: no updates" />
 
             </LinearLayout>
         </LinearLayout>
