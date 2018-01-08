@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CourtCounter</string>
+    <string name="team_a_name">Legia Warszawa</string>
+    <string name="team_b_name">Wisła Kraków</string>
+
+    <string name="offsides">Offsides:</string>
+    <string name="faults">Faults:</string>
+    <string name="last_update">Last update:</string>
+
 </resources>

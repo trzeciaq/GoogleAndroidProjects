@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         TextView updateView = (TextView) findViewById(R.id.update_text_view);
 
         scoreView.setText(String.valueOf(goalsTeamA));
-        faulsView.setText(String.valueOf("Faults: " + faulsTeamA));
-        offsidesView.setText(String.valueOf("Offsides: " + offsidesTeamA));
-        updateView.setText(String.valueOf("Last update: " + time));
+        faulsView.setText(String.valueOf(getString(R.string.faults) + faulsTeamA));
+        offsidesView.setText(String.valueOf(getString(R.string.offsides) + offsidesTeamA));
+        updateView.setText(String.valueOf(getString(R.string.last_update) + time));
     }
 
     public void goalTeamA(View view) {
@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
         TextView updateView = (TextView) findViewById(R.id.update_text_view);
 
         scoreView.setText(String.valueOf(goalsTeamB));
-        faulsView.setText(String.valueOf("Faults: " + faulsTeamB));
-        offsidesView.setText(String.valueOf("Offsides: " + offsidesTeamB));
-        updateView.setText(String.valueOf("Last update: " + time));
+        faulsView.setText(String.valueOf(getString(R.string.faults) + faulsTeamB));
+        offsidesView.setText(String.valueOf(getString(R.string.offsides) + offsidesTeamB));
+        updateView.setText(String.valueOf(getString(R.string.last_update) + time));
     }
 
     public void goalTeamB(View view) {

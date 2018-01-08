@@ -6,4 +6,38 @@
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#FF9800</item>
     </style>
+
+    <style name="TeamNameStyle">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/teamNameTextColor</item>
+        <item name="android:textSize">@dimen/textSizeTeamName</item>
+    </style>
+
+    <style name="scoreStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+        <item name="android:textSize">@dimen/scoreTextSize</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
+    <style name="buttonStatisticStyle">
+        <item name="android:layout_marginBottom">@dimen/buttonMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/buttonMarginRight</item>
+    </style>
+
+    <style name="statisticFieldStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textSize">@dimen/textSizeTeamName</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
 </resources>

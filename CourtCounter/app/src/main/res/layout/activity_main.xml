@@ -1,172 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical">
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_soccer2"
-        android:scaleType="centerCrop" />
+        android:fillViewport="false">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_soccer2"
+            android:scaleType="centerCrop" />
 
         <LinearLayout
-            android:id="@+id/main_layout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/marginTeamName"
-                    android:background="@android:color/white"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
-                    android:text="Legia Warszawa"
-                    android:textColor="@color/teamNameTextColor"
-                    android:textSize="@dimen/textSizeTeamName" />
-
-                <TextView
-                    android:id="@+id/team_a_score"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/marginBottomScore"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center_horizontal"
-                    android:text="0"
-                    android:textColor="@color/scoreTextColor"
-                    android:textSize="@dimen/scoreTextSize" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="goalTeamA"
-                    android:text="Goal" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="faulsTeamA"
-                    android:text="Fauls" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="offsideTeamA"
-                    android:text="offside" />
-
-            </LinearLayout>
-
-            <View
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
-                android:layout_centerVertical="true"
-                android:layout_marginTop="16dp"
-                android:background="#000000" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/marginTeamName"
-                    android:background="@android:color/white"
-                    android:fontFamily="sans-serif-medium"
-                    android:gravity="center_horizontal"
-                    android:text="Wisła Kraków"
-                    android:textColor="@color/teamNameTextColor"
-                    android:textSize="@dimen/textSizeTeamName" />
-
-                <TextView
-                    android:id="@+id/team_b_score"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/marginBottomScore"
-                    android:fontFamily="sans-serif-light"
-                    android:gravity="center_horizontal"
-                    android:text="0"
-                    android:textColor="@color/scoreTextColor"
-                    android:textSize="@dimen/scoreTextSize" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="goalTeamB"
-                    android:text="Goal" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="faulsTeamB"
-                    android:text="fauls" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/buttonMarginBottom"
-                    android:layout_marginLeft="@dimen/buttonMarginLeft"
-                    android:layout_marginRight="@dimen/buttonMarginRight"
-                    android:onClick="offsideTeamB"
-                    android:text="offside" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/statistics_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:background="@android:color/white"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:text="Game statistics"
-                android:textColor="@color/teamNameTextColor"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
 
             <LinearLayout
+                android:id="@+id/main_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -178,28 +35,40 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/fauls_score_team_a"
+                        style="@style/TeamNameStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:background="@android:color/white"
-                        android:fontFamily="sans-serif-light"
-                        android:gravity="center_horizontal"
-                        android:text="Fauls: 0"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/textSizeTeamName" />
+                        android:layout_margin="@dimen/marginTeamName"
+                        android:text="@string/team_a_name" />
 
                     <TextView
-                        android:id="@+id/offsides_score_team_a"
+                        android:id="@+id/team_a_score"
+                        style="@style/scoreStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:background="@android:color/white"
-                        android:fontFamily="sans-serif-light"
-                        android:gravity="center_horizontal"
-                        android:text="Offsides: 0"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/textSizeTeamName" />
+                        android:layout_marginBottom="@dimen/marginBottomScore"
+                        android:text="0" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="goalTeamA"
+                        android:text="Goal" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="faulsTeamA"
+                        android:text="Fauls" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="offsideTeamA"
+                        android:text="offside" />
 
                 </LinearLayout>
 
@@ -207,6 +76,7 @@
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
+                    android:layout_marginTop="16dp"
                     android:background="#000000" />
 
                 <LinearLayout
@@ -216,55 +86,143 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/fauls_score_team_b"
+                        style="@style/TeamNameStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:background="@android:color/white"
-                        android:fontFamily="sans-serif-light"
-                        android:gravity="center_horizontal"
-                        android:text="Fauls: 0"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/textSizeTeamName" />
+                        android:layout_margin="@dimen/marginTeamName"
+                        android:text="@string/team_b_name" />
 
                     <TextView
-                        android:id="@+id/offsides_score_team_b"
+                        android:id="@+id/team_b_score"
+                        style="@style/scoreStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="8dp"
-                        android:background="@android:color/white"
-                        android:fontFamily="sans-serif-light"
-                        android:gravity="center_horizontal"
-                        android:text="Offsides: 0"
-                        android:textColor="@android:color/black"
-                        android:textSize="@dimen/textSizeTeamName" />
+                        android:layout_marginBottom="@dimen/marginBottomScore"
+                        android:text="0" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="goalTeamB"
+                        android:text="Goal" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="faulsTeamB"
+                        android:text="fauls" />
+
+                    <Button
+                        style="@style/buttonStatisticStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="offsideTeamB"
+                        android:text="offside" />
 
                 </LinearLayout>
+
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/update_text_view"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/statistics_layout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="4dp"
-                android:layout_gravity="center"
-                android:background="@android:color/white"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:text="Last update: no updates"
-                android:textColor="@color/teamNameTextColor"
-                android:textSize="14dp"
-                 />
+                android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/white"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:text="Game statistics"
+                    android:textColor="@color/teamNameTextColor"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fauls_score_team_a"
+                            style="@style/statisticFieldStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fauls: 0" />
+
+                        <TextView
+                            android:id="@+id/offsides_score_team_a"
+                            style="@style/statisticFieldStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Offsides: 0" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:background="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fauls_score_team_b"
+                            style="@style/statisticFieldStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fauls: 0" />
+
+                        <TextView
+                            android:id="@+id/offsides_score_team_b"
+                            style="@style/statisticFieldStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Offsides: 0" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/update_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/white"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="Last update: no updates"
+                    android:textColor="@color/teamNameTextColor"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:onClick="resetPoints"
-        android:text="RESET POINTS" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:onClick="resetPoints"
+            android:text="RESET POINTS" />
 
-</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
