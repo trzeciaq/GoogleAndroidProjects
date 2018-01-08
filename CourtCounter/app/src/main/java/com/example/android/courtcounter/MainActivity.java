@@ -18,10 +18,19 @@ public class MainActivity extends AppCompatActivity {
     int offsidesTeamB = 0;
     String currentTime = "";
 
+    TextView scoreView;
+    TextView faulsView;
+    TextView offsidesView;
+    TextView updateView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        scoreView = (TextView) findViewById(R.id.team_a_score);
+        faulsView = (TextView) findViewById(R.id.fauls_score_team_a);
+        offsidesView = (TextView) findViewById(R.id.offsides_score_team_a);
+        updateView = (TextView) findViewById(R.id.update_text_view);
     }
 
     /**
@@ -32,10 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayForTeamA(String time) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        TextView faulsView = (TextView) findViewById(R.id.fauls_score_team_a);
-        TextView offsidesView = (TextView) findViewById(R.id.offsides_score_team_a);
-        TextView updateView = (TextView) findViewById(R.id.update_text_view);
+
 
         scoreView.setText(String.valueOf(goalsTeamA));
         faulsView.setText(String.valueOf(getString(R.string.faults) + faulsTeamA));
