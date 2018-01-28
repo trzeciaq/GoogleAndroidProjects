@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="instructions_app">Answer every question. Only one answer is correct.
+        "\n"Remember that you can only answer every question once</string>
+    <string name="app_title">Quiz App 1.0.0</string>
+    <string name="type_your_name">type your name</string>
+    <string name="type_your_surname">type your surname</string>
+    <string name="player_age">player age</string>
+    <string name="toastEmptyField">Please fill in all fields!</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="player_gender">Player: gender</string>
+    <string name="correctness">Are the date correct ?</string>
+
+    <string name="start_quiz">Start quiz</string>
+    <string name="exit_quiz">Exit quiz</string>
+    <string name="question2">2. Which colour is missing on the photo</string>
+    <string name="question3">3. How many days has a January?</string>
+    <string name="question3_answer1">31</string>
+    <string name="question3_answer2">29</string>
+    <string name="question3_answer3">28</string>
+    <string name="question3_answer4">30</string>
+    <string name="your_answer_here">your answer here</string>
+    <string name="cheeck_answers">Cheeck Answers</string>
+    <string name="score">0/4</string>
+    <string name="congratulationsLabel1">Congratulations</string>
+    <string name="question2_answer1">black</string>
+    <string name="question2_answer2">yellow</string>
+    <string name="question2_answer3">green</string>
+    <string name="question2_answer4">grey</string>
+    <string name="question2_answer5">white</string>
+    <string name="question2_answer6">pink</string>
+    <string name="question2_answer7">red</string>
+    <string name="question1_answer1">second</string>
+    <string name="question1_answer2">third</string>
+    <string name="question1_answer3">fourth</string>
+    <string name="question1_answer4">fifth</string>
+    <string name="question1">1. Which in the order of the planet from the Sun is Earth?</string>
+    <string name="congratulationsLabel2">You solved our quiz !!! "\n" and your result
+        is</string>
+    <string name="question4">4. Solve the equation: 2 + 2 * 2 - 4 / 2</string>
+</resources>

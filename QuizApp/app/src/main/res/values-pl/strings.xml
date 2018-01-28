@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">1. Która w kolejności planetą od Słońca jest Ziemia?</string>
+    <string name="question1_answer1">drugą</string>
+    <string name="question1_answer2">trzecią</string>
+    <string name="question1_answer3">czwartą</string>
+    <string name="question1_answer4">piątą</string>
+    <string name="question2">2. Którego koloru nie ma obrazku ?</string>
+    <string name="question2_answer1">czarnego</string>
+    <string name="question2_answer2">żółtego</string>
+    <string name="question2_answer3">zielonego</string>
+    <string name="question2_answer4">siwego</string>
+    <string name="question2_answer5">białego</string>
+    <string name="question2_answer6" translatable="false">różowego</string>
+    <string name="question2_answer7">czerwonego</string>
+    <string name="question3">3. Ile dni ma miesiąc Styczeń?</string>
+    <string name="question3_answer1">31</string>
+    <string name="question3_answer2">29</string>
+    <string name="question3_answer3">28</string>
+    <string name="question3_answer4">30</string>
+    <string name="congratulationsLabel1">Gratulacje</string>
+    <string name="cheeck_answers">Sprawdz odpowiedzi</string>
+    <string name="your_answer_here">wpisz odpowiedź</string>
+    <string name="question4">4. Rozwiąż równanie: 2 + 2 * 2 - 4 / 2</string>
+    <string name="toastEmptyField">Proszę wypełnić wszystkie pola !</string>
+    <string name="exit_quiz">Zakończ quiz</string>
+    <string name="start_quiz">Zacznij quiz</string>
+    <string name="player_gender">Płeć:</string>
+    <string name="female">kobieta</string>
+    <string name="male">męszczyzna</string>
+    <string name="player_age">Wiek</string>
+    <string name="type_your_name">wpisz swoje imie</string>
+    <string name="type_your_surname">wpisz swoje nazwisko</string>
+    <string name="app_title">Quiz App 1.0.0</string>
+    <string name="correctness">Czy odpowiedzi są poprawne ?</string>
+    <string name="instructions_app">Odpowiedz na każde pytanie. Tylko jedna odpowiedź jest
+        poprawna. "\n" Pamiętaj, że możesz odpowiedzieć na każde pytanie tylko raz</string>
+    <string name="congratulationsLabel2">Rozwiązałeś nasz quiz !!! "\n" a Twoj wynik
+        to</string>
+    <string name="score">0/4</string>
+</resources>

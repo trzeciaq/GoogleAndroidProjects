@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:freezesText="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:text="@string/question1"
+                android:textColor="@android:color/black" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rbGroupQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio_1_q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ1"
+                    android:text="@string/question1_answer1" />
+
+                <RadioButton
+                    android:id="@+id/radio_2_q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ1"
+                    android:text="@string/question1_answer2" />
+
+                <RadioButton
+                    android:id="@+id/radio_3_q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ1"
+                    android:text="@string/question1_answer3" />
+
+                <RadioButton
+                    android:id="@+id/radio_4_q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ1"
+                    android:text="@string/question1_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:text="@string/question2"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@null"
+                    android:padding="12dp"
+                    android:src="@drawable/question2img" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="12sp">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_1_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer1" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_2_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer2" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_3_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer3" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_4_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer4" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_5_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer5" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_6_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer6" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_7_q2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="toastAnswerQ2"
+                        android:text="@string/question2_answer7" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:text="@string/question3"
+                android:textColor="@android:color/black" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio_1_q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ3"
+                    android:text="@string/question3_answer1" />
+
+                <RadioButton
+                    android:id="@+id/radio_2_q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ3"
+                    android:text="@string/question3_answer2" />
+
+                <RadioButton
+                    android:id="@+id/radio_3_q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ3"
+                    android:text="@string/question3_answer3" />
+
+                <RadioButton
+                    android:id="@+id/radio_4_q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="checkAnswerQ3"
+                    android:text="@string/question3_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:text="@string/question4"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/q4_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:hint="@string/your_answer_here"
+                android:inputType="number"
+                android:padding="12dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:onClick="checkAnswers"
+                android:text="@string/cheeck_answers" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
