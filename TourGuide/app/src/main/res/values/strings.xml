@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_page_fragment">PageFragment</string>
+    <string name="title_activity_tab1">Artists</string>
+    <string name="title_activity_tab2">Cars</string>
+    <string name="title_activity_tab3">People</string>
+
+    <string name="artist_name_metallica">Metallica</string>
+    <string name="artist_name_acdc">AC/DC</string>
+    <string name="artist_name_aerosmith">Aerosmith</string>
+    <string name="artist_name_linkingpark">Linking Park</string>
+    <string name="artist_name_redchotchilipeppers">Red Chot Chili Peppers</string>
+    <string name="artist_name_lordi">Lordi</string>
+    <string name="artist_name_evanescence">Evanescence</string>
+
+    <string name="metallica_shortDesc">Category: Heavy metal, Thrash metal</string>
+    <string name="acdc_shortDesc">Category: Hard rock, Blues rock, Rock and roll</string>
+    <string name="aerosmith_shortDesc">Category: Hard rock, Blues rock, Glam metal, Heavy metal</string>
+    <string name="linkingpark_shortDesc">Category: Alternativy rock and metal, Nu metal, Rap-rock, Electric rock</string>
+    <string name="redchotchilipeppers_shortDesc">Category: Funk rock, Alternative rock, Funk-metal, Rap-rock</string>
+    <string name="lordi_shortDesc">Category: Hard rock, Heavy metal, Shock rock</string>
+    <string name="evancescence_shortDesc">Category: Hard rock</string>
+    <string name="metallica_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="acdc_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="aerosmith_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="linkingpark_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="redchotchilipeppers_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="lordi_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="evanescence_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+
+    <string name="car_name_alfaromeo">Alfaromeo</string>
+    <string name="car_name_audi">Audi</string>
+    <string name="car_name_bugatti">Bugatti</string>
+    <string name="car_name_jaguar">Jaguar</string>
+    <string name="car_name_lamborghini">Lamborghini</string>
+    <string name="car_name_maserati">Maserati</string>
+    <string name="car_name_porsche">Porsche</string>
+    <string name="car_name_tesla">Tesla</string>
+
+    <string name="alfaromeo_shortDesc">Since: 24.06.1910, Mediolan, Włochy </string>
+    <string name="audi_shortDesc">Since: 25.04.1910, Germany</string>
+    <string name="bugatti_shortDesc">Since: 1909, Molsheim, Francja</string>
+    <string name="jaguar_shortDesc">Since: 4.09.1922, Blackpool, UK</string>
+    <string name="lamborghini_shortDesc">Since: 05.1963, Sant’Agata Bolognese, Italy</string>
+    <string name="maserati_shortDesc">Since: 1.12.1914, Bolonia, Italy</string>
+    <string name="porsche_shortDesc">Since: 25.04.1931, Stuttgart, Germany</string>
+    <string name="tesla_shortDesc">Since: 1.07.2003, Palo Alto, USA</string>
+    <string name="alfaromeo_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="audi_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="bugatti_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="jaguar_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="lamborghini_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="maserati_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="porsche_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="tesla_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+
+    <string name="people_name_clinton">Bill Clinton</string>
+    <string name="people_name_dalailama">Dalai-Lama Tenzin Gjaco</string>
+    <string name="people_name_einstein">Albert Einstein</string>
+    <string name="people_name_hussein">Saddam Husajn</string>
+    <string name="people_name_kopernik">Mikolaj Kopernik</string>
+    <string name="people_name_niuton">Isaac Niuton</string>
+    <string name="people_name_obama">Barack Obama</string>
+
+    <string name="clinton_shortDesc">Born: 19.08.1946 71 lat, Hope, Arkansas, USA</string>
+    <string name="dalailama_shortDesc">Born: 6.07.1935 83 lata, Taktser</string>
+    <string name="einstein_shortDesc">Born: 14.03.1879, Ulm, Germany</string>
+    <string name="hussein_shortDesc">Born: 28.04.1937, Al-Audża, Irak</string>
+    <string name="kopernik_shortDesc">Born: 19.02.1473, Toruń, Poland</string>
+    <string name="niuton_shortDesc">Born: 4.01.1643, Woolsthorpe Manor, UK</string>
+    <string name="obama_shortDesc">Born: 4.08.1961 56 lat, Honolulu, Hawaje, USA</string>
+    <string name="clinton_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="dalailama_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="einstein_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="hussein_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="kopernik_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="niuton_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+    <string name="obama_longDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor elit eros, vitae consequat tellus molestie a. Aenean accumsan mollis lorem sed pulvinar.</string>
+</resources>

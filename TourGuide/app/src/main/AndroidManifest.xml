@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lukastq.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabFragment1"
+            android:label="@string/title_activity_tab1"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".TabFragment2"
+            android:label="@string/title_activity_tab2"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".TabFragment3"
+            android:label="@string/title_activity_tab3"
+            android:configChanges="orientation|screenSize">
+
+        </activity>
+        <activity
+            android:name=".itemDetails"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Current item">
+
+        </activity>
+    </application>
+
+</manifest>
