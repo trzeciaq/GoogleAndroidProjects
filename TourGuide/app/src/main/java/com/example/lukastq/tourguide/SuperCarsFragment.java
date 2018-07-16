@@ -15,31 +15,27 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 
-public class TabFragment2 extends Fragment {
+public class SuperCarsFragment extends Fragment {
 
     public static final String EXTRA_NAME = "EXTRA_NAME";
     public static final String EXTRA_SHORT_DESCRIPTION = "EXTRA_SHORT_DESCRIPTION";
     public static final String EXTRA_LONG_DESCRIPTION = "EXTRA_LONG_DESCRIPTION";
     public static final String EXTRA_PICTURE = "EXTRA_PICTURE";
-    public FragmentAdapter albumAdapter;
+    public ItemAdapter albumAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.activity_tab2, container, false);
+        View rootView = inflater.inflate(R.layout.activity_tab, container, false);
 
-        ArrayList<Album> album = new ArrayList<>();
-        album.add(new Album(getString(R.string.car_name_alfaromeo), getString(R.string.alfaromeo_shortDesc), getString(R.string.alfaromeo_longDesc), R.drawable.alfaromeo));
-        album.add(new Album(getString(R.string.car_name_audi), getString(R.string.audi_shortDesc), getString(R.string.audi_longDesc), R.drawable.audi));
-        album.add(new Album(getString(R.string.car_name_bugatti), getString(R.string.bugatti_shortDesc), getString(R.string.bugatti_longDesc), R.drawable.bugatti));
-        album.add(new Album(getString(R.string.car_name_jaguar), getString(R.string.jaguar_shortDesc), getString(R.string.jaguar_longDesc), R.drawable.jaguar));
-        album.add(new Album(getString(R.string.car_name_lamborghini), getString(R.string.lamborghini_shortDesc), getString(R.string.lamborghini_longDesc), R.drawable.lamborghini));
-        album.add(new Album(getString(R.string.car_name_maserati), getString(R.string.maserati_shortDesc), getString(R.string.maserati_longDesc), R.drawable.maserati));
-        album.add(new Album(getString(R.string.car_name_porsche), getString(R.string.porsche_shortDesc), getString(R.string.porsche_longDesc), R.drawable.porsche));
-        album.add(new Album(getString(R.string.car_name_tesla), getString(R.string.tesla_shortDesc),  getString(R.string.tesla_longDesc), R.drawable.tesla));
+        ArrayList<Items> album = new ArrayList<>();
+        album.add(new Items(getString(R.string.car_name_bugatti), getString(R.string.bugatti_shortDesc), getString(R.string.bugatti_longDesc), R.drawable.bugatti));
+        album.add(new Items(getString(R.string.car_name_lamborghini), getString(R.string.lamborghini_shortDesc), getString(R.string.lamborghini_longDesc), R.drawable.lamborghini));
+        album.add(new Items(getString(R.string.car_name_porsche), getString(R.string.porsche_shortDesc), getString(R.string.porsche_longDesc), R.drawable.porsche));
+        album.add(new Items(getString(R.string.car_name_maserati), getString(R.string.maserati_shortDesc), getString(R.string.maserati_longDesc), R.drawable.maserati));
+        album.add(new Items(getString(R.string.car_name_audi), getString(R.string.audi_shortDesc), getString(R.string.audi_longDesc), R.drawable.audi));
 
-
-        albumAdapter = new FragmentAdapter(getActivity(), album);
+        albumAdapter = new ItemAdapter(getActivity(), album);
 
         ListView listView = rootView.findViewById(R.id.listview_albums);
 
@@ -54,7 +50,7 @@ public class TabFragment2 extends Fragment {
                 String currentItemShortDescString = albumAdapter.getItem(position).getItemShortDesc();
                 String currentItemLongDescString = albumAdapter.getItem(position).getItemLongDesc();
 
-                Intent intent = new Intent(getActivity(), itemDetails.class);
+                Intent intent = new Intent(getActivity(), ItemDetails.class);
                 intent.putExtra(EXTRA_NAME, currentItemNameString);
                 intent.putExtra(EXTRA_SHORT_DESCRIPTION, currentItemShortDescString);
                 intent.putExtra(EXTRA_LONG_DESCRIPTION, currentItemLongDescString);

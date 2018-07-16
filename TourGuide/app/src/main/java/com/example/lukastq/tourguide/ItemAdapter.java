@@ -10,21 +10,21 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class FragmentAdapter extends ArrayAdapter<Album> {
+public class ItemAdapter extends ArrayAdapter<Items> {
 
-    private static final String LOG_TAG = FragmentAdapter.class.getSimpleName();
+    private static final String LOG_TAG = ItemAdapter.class.getSimpleName();
 
-    public FragmentAdapter(Activity context, ArrayList<Album> album) {
+    public ItemAdapter(Activity context, ArrayList<Items> album) {
         super(context, 0, album);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
-        if(listItemView == null)
+        if (listItemView == null)
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.album_item, parent, false);
 
-        Album currentAlbum = getItem(position);
+        Items currentAlbum = getItem(position);
 
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.item_name);
         nameTextView.setText(currentAlbum.getItemName());

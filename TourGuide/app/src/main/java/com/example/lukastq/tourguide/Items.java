@@ -1,13 +1,13 @@
 package com.example.lukastq.tourguide;
 
-public class Album {
+public class Items {
 
     private String itemName;
     private String item_shortDesc;
     private String item_longDesc;
     private int itemImageId;
 
-    public Album(String iName, String iShortDesc, String iLongDesc, int imageId) {
+    public Items(String iName, String iShortDesc, String iLongDesc, int imageId) {
         itemName = iName;
         item_shortDesc = iShortDesc;
         item_longDesc = iLongDesc;
@@ -26,6 +26,8 @@ public class Album {
         return item_longDesc;
     }
 
-    public int getImageId() { return itemImageId; }
+    public int getImageId() {
+        return itemImageId;
+    }
 }
 

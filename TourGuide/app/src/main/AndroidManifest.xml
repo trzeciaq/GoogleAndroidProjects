@@ -17,24 +17,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TabFragment1"
-            android:label="@string/title_activity_tab1"
-            android:configChanges="orientation|screenSize" />
+            android:name=".ArtistFragment"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_tab1" />
         <activity
-            android:name=".TabFragment2"
-            android:label="@string/title_activity_tab2"
-            android:configChanges="orientation|screenSize" />
+            android:name=".CarFragment"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_tab2" />
         <activity
-            android:name=".TabFragment3"
-            android:label="@string/title_activity_tab3"
-            android:configChanges="orientation|screenSize">
+            android:name=".PeopleFragment"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_tab3">
 
         </activity>
         <activity
-            android:name=".itemDetails"
-            android:parentActivityName=".MainActivity"
+            android:name=".ItemDetails"
             android:configChanges="orientation|screenSize"
-            android:label="Current item">
+            android:label="Current item"
+            android:parentActivityName=".MainActivity">
 
         </activity>
     </application>

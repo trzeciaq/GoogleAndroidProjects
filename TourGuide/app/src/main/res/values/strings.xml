@@ -7,6 +7,7 @@
     <string name="title_activity_tab1">Artists</string>
     <string name="title_activity_tab2">Cars</string>
     <string name="title_activity_tab3">People</string>
+    <string name="title_activity_tab4">Super Cars</string>
 
     <string name="artist_name_metallica">Metallica</string>
     <string name="artist_name_acdc">AC/DC</string>
